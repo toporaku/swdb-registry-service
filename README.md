@@ -4,13 +4,13 @@ Este repositorio contiene el microservicio de **Servidor de Registro y Descubrim
 
 ---
 
-## 📝 Descripción
+## Descripción
 
 Servidor de nombres y directorio de servicios basado en Netflix Eureka Registry. Permite a todos los microservicios registrarse dinámicamente y ubicarse entre sí mediante Balanceo de Carga (Load Balancing) sin acoplamiento de IPs físicas.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Tech Stack
 
 *   **Lenguaje de Programación:** Java 17
 *   **Framework Principal:** Spring Boot 3
@@ -20,7 +20,7 @@ Servidor de nombres y directorio de servicios basado en Netflix Eureka Registry.
 
 ---
 
-## 🚀 Guía de Ejecución Independiente
+## Guía de Ejecución
 
 Si desea arrancar este microservicio por separado para depuración o pruebas locales, siga estas instrucciones:
 
@@ -37,7 +37,7 @@ mvn spring-boot:run
 
 ---
 
-## 📖 Documentación del Servicio
+## Documentación del Servicio
 
 Este componente es un servicio interno de infraestructura (no expone APIs directas de negocio al cliente final). Su estado y métricas de salud pueden monitorearse a través de:
 *   **Eureka Registry:** `http://localhost:8761`
